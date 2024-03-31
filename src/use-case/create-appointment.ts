@@ -1,15 +1,15 @@
 import { Appointment } from '../entities/appointment'
 
-interface CreateAppointmentRequest {
+interface ICreateAppointmentRequest {
   customer: string
   startsAt: Date
   endsAt: Date
 }
 
-type CreateAppointmentResponse = Appointment
+type TCreateAppointmentResponse = Appointment
 
 export class CreateAppointment {
-  async execute (requestData: CreateAppointmentRequest): Promise<CreateAppointmentResponse> {
+  async execute (requestData: ICreateAppointmentRequest): Promise<TCreateAppointmentResponse> {
     const appointment = new Appointment(requestData)
     return appointment
   }
