@@ -5,23 +5,30 @@ Node Solid Server is a project aimed at demonstrating how to implement testing u
 ## Directory Structure
 
 - entities/
+  
   ├── appointment.ts             # Entity definition for appointments
+  
   ├── appointment.spec.ts        # Test file for appointment entity
 
 - repositories/
+  
   ├── appointments-repository.ts      # Interface for appointments repository
+
   ├── in-memory-appointments-repository.ts # In-memory implementation of appointments repository
-  └── ...
 
 - use-cases/
+  
   ├── create-appointment.ts      # Use case for creating appointments
+  
   └── create-appointment.spec.ts # Test file for create-appointment use case
 
 - tests/
+  
   ├── utils/
+  
   │   ├── get-future-date.ts     # Utility function for getting future dates
+
   │   └── get-future-date.spec.ts# Test file for get-future-date utility
-  └── ...
 
 - package.json                   # Node.js package configuration file
 - package-lock.json              # Lock file for npm dependencies
