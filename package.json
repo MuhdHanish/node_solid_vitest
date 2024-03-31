@@ -1,13 +1,13 @@
 {
   "name": "node_solid_vitest",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node Solid Server is a project aimed at demonstrating how to implement testing using the Vitest framework in a TypeScript-based Node.js project following clean architecture principles.",
   "main": "index.js",
   "scripts": {
     "test": "vitest"
   },
   "keywords": [],
-  "author": "",
+  "author": "MuhdHanish",
   "license": "ISC",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.21.0",
