@@ -22,8 +22,12 @@ export class Appointment {
   constructor (props: IAppointmentProps) {
     const { startsAt, endsAt } = props
 
+    if (startsAt <= new Date()) {
+      throw new Error('startsAt must be greater than now')
+    }
+
     if (endsAt <= startsAt) {
-      throw new Error('endsAt must be less that startsAt')
+      throw new Error('endsAt must be less than startsAt')
     }
 
     this.props = props
