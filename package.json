@@ -18,5 +18,8 @@
     "eslint-plugin-promise": "^6.1.1",
     "typescript": "^5.4.3",
     "vitest": "^1.4.0"
+  },
+  "dependencies": {
+    "date-fns": "^3.6.0"
   }
 }
