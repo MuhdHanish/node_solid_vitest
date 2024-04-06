@@ -1,4 +1,4 @@
-# Node Solid Server
+# Node Solid Server Vitest
 
 Node Solid Server is a project aimed at demonstrating how to implement testing using the Vitest framework in a TypeScript-based Node.js project following clean architecture principles.
 
