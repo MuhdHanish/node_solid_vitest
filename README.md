@@ -28,7 +28,7 @@ Node Solid Server is a project aimed at demonstrating how to implement testing u
   
   │   ├── get-future-date.ts     # Utility function for getting future dates
 
-  │   └── get-future-date.spec.ts# Test file for get-future-date utility
+  │   └── get-future-date.spec.ts # Test file for get-future-date utility
 
 - package.json                   # Node.js package configuration file
 - package-lock.json              # Lock file for npm dependencies
