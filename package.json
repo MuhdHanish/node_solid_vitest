@@ -6,7 +6,17 @@
   "scripts": {
     "test": "vitest"
   },
-  "keywords": [],
+ "keywords": [
+    "server",
+    "node",
+    "express",
+    "typescript",
+    "SOLID principles",
+    "clean-architucture",
+   "Test",
+   "Vitest",
+   "Testing"
+  ],
   "author": "MuhdHanish",
   "license": "ISC",
   "devDependencies": {
